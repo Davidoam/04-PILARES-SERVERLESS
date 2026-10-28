@@ -9,7 +9,8 @@ export const handler = async (
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Festival Control API online'
+      message: 'Festival Control · equipo preparado y añade service',
+      service: 'hello'
     })
   };
 };
